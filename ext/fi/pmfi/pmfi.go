@@ -15,8 +15,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/Shougo/goda-fi.vim/ext/kind/file"
-	"github.com/Shougo/goda-fi.vim/ext/kind/url"
+	"github.com/Shougo/goda-fi-ext/ext/kind/file"
+	"github.com/Shougo/goda-fi-ext/ext/kind/url"
 	"github.com/Shougo/goda-fi.vim/fi"
 	"github.com/Shougo/goda-pm.vim/pm"
 	"github.com/Shougo/goda.vim/sdk"
