@@ -2,8 +2,8 @@ github.com/Shougo/goda-fi-ext v0.1.0 h1:USTiCrY7sd6qcejrgx7L35Lpo+KrwL381hsdJuDo
 github.com/Shougo/goda-fi-ext v0.1.0/go.mod h1:/jCuV8QPG53wBmJOZGMdbfwwW0jBxHJxB3Y/OJXRskY=
 github.com/Shougo/goda-fi.vim v0.1.5-0.20261109095837-d21d63e37be0 h1:R7mtV5Sl5caJSdN7QHZ2uH9avVJnYlfed/pAD/Qts4k=
 github.com/Shougo/goda-fi.vim v0.1.5-0.20261109095837-d21d63e37be0/go.mod h1:PisZVHsBETK7wBrRAh/yMwwkR6NiCh1SicZKWmIjrvQ=
-github.com/Shougo/goda-pm.vim v0.1.2-0.20261108231718-aafc18ee236b h1:9u4L0z6oRbNU85EkbDpG+4rIlwMzYL91G9VAQW/J3NI=
-github.com/Shougo/goda-pm.vim v0.1.2-0.20261108231718-aafc18ee236b/go.mod h1:v0/Im34oYqAU+cPiRqwOovTSrqlT12T2SR3OFPWQlSg=
+github.com/Shougo/goda-pm.vim v0.2.0 h1:RWZs427V8MVz7OQ+tEjWImvLKsVo28geZRrcBNYQ2mc=
+github.com/Shougo/goda-pm.vim v0.2.0/go.mod h1:z1mKfIlKMUTaW71kqHWKu+bx0/J4Hb/rD9qAtFn2iAA=
 github.com/Shougo/goda.vim v0.8.0 h1:fcr+zeKVYRKE3mU0tOBnrbqNxGIfctpf75LPOrEhn1U=
 github.com/Shougo/goda.vim v0.8.0/go.mod h1:ohGPksso9XrqpdVRLS3TzoUtz2x3yMT8x+x+MnMpbM8=
 github.com/pelletier/go-toml/v2 v2.4.3 h1:GTRvJQutkOSftxIFD5xw9aepkYNuPWmVJpffdDPYVpY=
