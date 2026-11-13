@@ -572,6 +572,12 @@ func (r *run) updatePlugin(p pm.Plugin, index, max int, latest, rollbacks Rollba
 	}
 	logMessage := r.logMessage(p, pr, pa, oldRev, newRev)
 	changes := r.changesCount(p, pr, pa, oldRev, newRev)
+	if oldRev == "" {
+		// Installed now: the startup script did not run its hook_add (it
+		// was not installed), which the other hooks may need (a variable
+		// it sets, as the config directory of g:goda_cmp#config_dir).
+		r.addHook(p)
+	}
 	if p.Has("hook_post_update") {
 		r.callHook("post_update", p)
 	}

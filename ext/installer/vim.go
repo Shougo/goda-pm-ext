@@ -165,6 +165,17 @@ func (r *run) outputDiff(lines []string) {
 	_, _ = r.call("setbufvar", buf, "&modifiable", false)
 }
 
+// addHook runs the hook_add of p, which is not sourced for it (as at
+// startup).
+func (r *run) addHook(p pm.Plugin) {
+	if !p.Has("hook_add") {
+		return
+	}
+	if _, err := r.call("goda_pm#util#_call_hook", "add", p.Name(), map[string]any{}); err != nil {
+		r.printError(fmt.Sprintf("%s: hook_add: %v", p.Name(), err))
+	}
+}
+
 // callHook calls the hook_{name} of p, in its directory.
 func (r *run) callHook(name string, p pm.Plugin, args ...any) {
 	if !p.Has("hook_" + name) {
